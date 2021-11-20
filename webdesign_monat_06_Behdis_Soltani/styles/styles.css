@@ -24,7 +24,7 @@ body{
 .wrapper{
 	width:960px;
 	margin: 0 auto;
-	overflow: hidden;
+	overflow: visible;
 	position: relative;
 }
 
@@ -185,6 +185,36 @@ ul#navigation li a{
 ul#navigation li a:hover, ul#navigation li a.active{
 	color: #ff621c;
 }
+
+/* Drop-Down-Menü */
+
+#navigation li {
+	position: relative;
+}
+
+#navigation .drop {
+position: absolute; 
+top:-10px;
+left:-10px;
+overflow: visible;
+z-index: 99;
+}
+
+ul#navigation .drop li a{
+text-transform: none;
+font-size: 14px;
+padding: 10px 35px 10px 15px;
+border-bottom: 1px solid #3D4346;
+}
+
+#navigation .drop li a{
+	display:block;
+}
+
+#navigation .drop li a:hover {
+	display:none;
+}
+
 
 
 
