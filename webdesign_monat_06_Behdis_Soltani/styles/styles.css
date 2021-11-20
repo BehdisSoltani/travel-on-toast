@@ -194,7 +194,7 @@ ul#navigation li a:hover, ul#navigation li a.active{
 
 #navigation .drop {
 position: absolute; 
-top:-10px;
+top:-20px;
 left:-10px;
 overflow: visible;
 z-index: 99;
